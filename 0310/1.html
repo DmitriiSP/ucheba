@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        
+        
+        <title></title>    
+        <style>
+            body: {
+                margin:0;
+                
+            }
+            .grid {
+                background: lightgray;
+                width: 800px;
+                height: 600px;
+                display:grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                grid-template-areas:'q q q q' 'e e . w'  'r r r r';
+                animation: move 5s infinite;
+                
+            }
+            .blue{
+                background: blue;
+                grid-area: q;
+                
+                
+            
+            }
+            .red {
+                background: red;
+                grid-area: w;                
+                animation-direction: reverse;
+               
+            }
+            .green {
+                background: yellow;
+                grid-area: e;
+                
+            }
+            .yellow {
+                background: green;
+                grid-area: r;
+            }
+        </style>
+    
+        
+    </head>
+    
+    <body>       
+        <div class= "grid">
+            <div class="blue"></div>
+            <div class="red"></div>
+            <div class="yellow"></div>
+            <div class="green"></div>     
+                              
+        </div>
+                
+                   
+                
+    </body>
+</html>
