@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* global reset */
+html, body, body div, span, label, h1, h2, h3, h4, h5, h6, p, a, em, img, s, strong, b, u, i, dl, dt, dd, ol, ul, li,
+ button, article, aside, footer, header, nav, section, input, textarea, select, option {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	background: none;	
+}
+html * {
+    max-height: 10000000px;
+}
+/* commons */ 
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+button{
+    cursor: pointer;         
+}
+p{    
+    color:#1F3F68;
+    opacity: 0.6;
+    
+}
+.container{
+    width:1140px;
+    margin: 0 auto;
+}
+/* structure */
+html {
+    height: 100%;
+}
+body{
+    height:100%;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    font: normal 400 16px/26px 'Roboto';
+    letter-spacing: 0.05em;
+    
+}
+header{
+    height:116px;
+    flex:none;
+}
+footer{
+    height:657px;
+    background:#316099;
+    flex:none;
+}
+main{
+    flex: auto;
+}
+
+
+
+/*header*/
+
+
+
+/*footer*/
+.liner{
+    height:0;
+    border-top: 1px solid rgba(255,255,255,.4);
+}
+fotter button{
+    float: right;  
+    background: #5A98D0;
+    height: 56px;
+    width: 237px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    
+}
+footer.container{
+    padding: 64px 0;
+}
+
+
+
+/* main*/
+
+
+
+
